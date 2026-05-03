@@ -1,0 +1,30 @@
+[
+  {
+    "patterns": ["hi", "hello", "hey"],
+    "response": "Hello! 😊 How can I assist you?"
+  },
+  {
+    "patterns": ["good morning"],
+    "response": "Good morning! ☀️"
+  },
+  {
+    "patterns": ["your name"],
+    "response": "I am your Smart Chatbot 🤖"
+  },
+  {
+    "patterns": ["who are you"],
+    "response": "I am an AI-based chatbot created for answering queries."
+  },
+  {
+    "patterns": ["time"],
+    "response": "TIME_FEATURE"
+  },
+  {
+    "patterns": ["date"],
+    "response": "DATE_FEATURE"
+  },
+  {
+    "patterns": ["bye", "exit"],
+    "response": "Goodbye! 👋"
+  }
+]

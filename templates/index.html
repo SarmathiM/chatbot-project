@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Smart Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <!-- Centered Heading -->
+      <h2 class="title">🚀 SmartSphere Chatbot</h2>
+
+      <!-- Dark mode icon only -->
+      <div class="top-bar">
+        <button class="icon-btn" onclick="toggleDarkMode()">🌙</button>
+      </div>
+
+      <!-- Chat box -->
+      <div id="chat-box"></div>
+
+      <!-- Input area -->
+      <div class="input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask anything..."
+          onkeypress="handleKey(event)"
+        />
+
+        <!-- Send icon -->
+        <button class="send-btn" onclick="sendMessage()">➤</button>
+
+        <!-- Clear button -->
+        <button class="clear-btn" onclick="clearChat()">Clear</button>
+      </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
